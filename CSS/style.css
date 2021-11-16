@@ -1,0 +1,82 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/******* General Styles *********/
+
+body
+
+{
+    font-family: Helvetica;
+}
+
+ 
+
+/*******Header********/
+
+#navigation
+
+{
+    background-color: #F7F7F7;
+    display: grid;
+    grid-template-columns: 300px 1fr 300px;
+    
+}
+
+header > div :nth-child(2)
+
+    {
+        justify-self: center;
+    }
+
+header > div :nth-child(3)
+
+    {
+        justify-self: center;
+    }
+
+
+
+header a
+
+{
+    color: black;
+    text-decoration: none;
+
+    
+    
+}
+
+
+header li
+{
+    display: inline-block;
+    padding: 42px 16px;
+    font-size: 1.1rem ;
+    font-weight: lighter;
+}
+
+header img 
+
+    {
+        margin: 22px 0 0 25px;
+    }
+
+
+
+
+/*********** Hero-Section **********/
+
+#hero-section
+
+    {
+        height:850px;
+        background-image: url(../Img/hero-section2.jpg);
+        background-position: center center;
+        background-size: cover;
+        display: grid;
+    grid-template-columns: 1fr;
+    }
