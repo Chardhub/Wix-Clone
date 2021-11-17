@@ -1,0 +1,37 @@
+
+.btn
+{
+    display: inline-block;
+    text-transform: capitalize;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 0.9rem;
+
+}
+
+
+.btn-primary 
+
+{
+    background-color: black; 
+}
+ 
+.grid 
+    {
+        display: grid;
+    }
+
+.grid-x-center
+
+    {
+        justify-self: center;
+    }
+
+.grid-y-center
+
+    {
+        align-self: center;
+    }

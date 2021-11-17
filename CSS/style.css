@@ -11,6 +11,7 @@ body
 
 {
     font-family: Helvetica;
+    background-color: #F7F7F7 ;
 }
 
  
@@ -26,17 +27,6 @@ body
     
 }
 
-header > div :nth-child(2)
-
-    {
-        justify-self: center;
-    }
-
-header > div :nth-child(3)
-
-    {
-        justify-self: center;
-    }
 
 
 
@@ -78,5 +68,57 @@ header img
         background-position: center center;
         background-size: cover;
         display: grid;
-    grid-template-columns: 1fr;
+        grid-template-columns: 1fr 350px ;
+        
+
+        
+        
+
     }
+
+  h1
+  
+    {
+        font-size: 4.1rem;
+        font-weight: lighter;
+        margin-bottom: 18px;
+    }
+
+#hero-section p 
+
+    {
+        font-size: 1.2rem;
+        margin-bottom: 48px;
+        font-weight: lighter;
+        
+    }
+
+#hero-section div
+
+    {
+        margin: 175px 75px ;
+    }
+    
+
+/*********** Experience-Section **********/
+
+#experience-section div
+
+    {
+        margin: 120px 250px 75px;
+    }
+
+#experience-section h2
+
+    {
+        font-size: ;
+    }
+
+
+#cards-section
+
+  {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      
+  }
