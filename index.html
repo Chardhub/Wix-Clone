@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/CSS/utilities.css"
     
+    
    
 </head>
 
@@ -20,21 +21,22 @@
 
                 <img src="Img/logo.png" alt="Tide's fishing Charters logo">
             
+            <div id="top-nav-links" class="grid-x-center grid-y-center">
 
-            <nav id="top-nav-links" class="grid-x-center" >
-                <ul>
+                <nav> 
+                    <ul>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Charters</a></li>
+                        <li><a href="">Fishing Reports</a></li>
+                        <li><a href="">Gallery</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
 
-                    <li><a href="">About</a></li>
-                    <li><a href="">Charters</a></li>
-                    <li><a href="">Fishing Reports</a></li>
-                    <li><a href="">Gallery</a></li>
-                    <li><a href="">Contact</a></li>
+            </div>
+           
 
-                </ul>
-                
-            </nav>
-
-            <div id="log-in" class="grid-x-center">
+            <div id="log-in" class="grid-x-center grid-y-center">
 
                 <a href=""> 
                     <i class="fas fa-user-circle"></i>
@@ -70,13 +72,15 @@
             
         </section>
 
-        <section id="experience-section">
+        <section id="experience-section" class="section-headers">
             
             <div>
                 <h2>
                     The Finest Fishing Experience
                 </h2>
+
                 <img src="" alt="">
+
                 <p>
                     I'm a paragraph. Click here to add your own text <br> and edit me.
                     Let your users get to know you.
@@ -85,7 +89,10 @@
 
         </section>
 
-        <section id="cards-section">
+        <section >
+
+        <div id="cards-section" class="text-center">
+
             <div>
                 <img src="Img/destination.webp" alt="">
                 <h3>
@@ -114,34 +121,39 @@
                     Meet the fleet 
                 </h3>
             </div>
+        </div> 
+           
         </section>
 
            
-    
+        
+        <section id="adventure-section"  >
 
-     
-        
-        
-        <section>
-            <div>
+
+           
+
+            <div class="section-headers">
                 <h2>
-                    A Unique adventure
+                    A Unique Adventure
                 </h2>
+
                 <p>
-                    I'm a paragraph. Click here to add your own text and edit me. 
+                    I'm a paragraph. Click here to add your own text <br> and edit me. 
                     Let your users get to know you.
                 </p>
-                <a href="">
+
+                <a href="" class="btn btn-secondary">
                     
                     Veiw Charters
                 </a>
             </div>
             <div>
-                <img src="Img/adventure.webp" alt="">
+
             </div>
+            
         </section>
 
-        <section id="testimonial">
+        <section id="testimonial" class="section-headers grid  grid-x-center grid-y-center text-center">
 
             <div>
 
@@ -149,38 +161,112 @@
                     loved by <br> Friends & Families
                 </h2>
 
-                <img src="" alt="">
+                
 
                 <p>
-
+                    
+                     I'm a testimonial. Click to edit me and add text that <br> 
+                     says something nice about you and your services.
                 </p>
 
             </div>
 
         </section>
 
-        <section>
 
-            <div>
-                <h2>
-                    Reel fishing Reports
-                </h2>
-                <p>
-                    I'm a paragraph. Click here to add your own text and edit me. 
-                    Let your users get to know you.
-                </p>
+    
 
-                <a href="">
+            <section id="reel-report-section"  >
 
-                    Veiw Charters
-                </a>
-            </div>
-            <div>
-                <img src="Img/reports.webp" alt="">
-            </div>
-        </section>
 
-        <section id="bttm-nav">
+           
+                <div>
+    
+                </div>
+                
+                <div class="section-headers">
+
+                    
+
+                    <h2>
+                        Reel fishing Reports
+                    </h2>
+    
+                    <p>
+                        I'm a paragraph. Click here to add your own text <br> and edit me. 
+                        Let your users get to know you.
+                    </p>
+    
+                    <a href="" class="btn btn-secondary">
+                        
+                        Veiw Charters
+                    </a>
+
+                </div>
+                
+                
+            </section>
+            
+             
+
+
+        <section id="bttm-nav" class="grid grid-col-3  ">
+
+            
+        <div>
+            
+            <img src="/Img/bttm logo.png" alt="">  <br>
+                
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+
+            <h2>
+                Our Location
+            </h2>
+
+            <p>
+                500 Terry Francois Street,
+                San Francisco, CA 94158
+            </p>
+
+
+            <a href="">Email: info@mysite.com</a>
+            <p>
+                Tel: 123-456-7890
+            </p>
+        </div>
+
+        <div>
+            <h2> Ask the captain</h2>
+            <form action="" method="post">
+                <label for="first-name">First Name</label> 
+                <label for="last-name">Last Name</label> <br>
+                <input type="text" id="first-name"> <input type="text"  id="last-name"> <br>
+                <label for="email">Email*</label><br>
+                <input type="text" id="email"> <br>
+                <label for="subject">Subject</label> <br>
+                <input type="text" id="subject"> <br>
+                <label for="message">Leave us a message...</label><br>
+                <textarea id="message" cols="45" rows="10"></textarea> <br>
+                <button type="submit">Submit</button>
+
+
+
+            </form>
+        </div>
+
+        <div>
+            <nav> 
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Charters</a></li>
+                    <li><a href="">Fishing Reports</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
 
         </section>
 

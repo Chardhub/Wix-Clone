@@ -45,7 +45,7 @@ header li
 {
     display: inline-block;
     padding: 42px 16px;
-    font-size: 1.1rem ;
+    font-size: .8rem ;
     font-weight: lighter;
 }
 
@@ -108,17 +108,160 @@ header img
         margin: 120px 250px 75px;
     }
 
-#experience-section h2
 
-    {
-        font-size: ;
-    }
-
+/*********** Cards-Section **********/
 
 #cards-section
 
   {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr;
+      column-gap: 24px;
+      margin: 0px 72px;
+      border-bottom: 1px solid grey;
       
   }
+
+#cards-section img
+
+  {
+      width: 100%;
+      margin: 0 0 24px;
+  }
+
+#cards-section h3
+
+  {
+      font-weight: lighter;
+      margin-bottom: 48px;
+  }
+
+  /*********** testimonial **********/
+
+  #testimonial
+
+    {
+        background-image: url(../Img/0b340f_0d1ab852ddde4f09a1e244c2aa3c37a0_mv2.webp);
+        height: 550px;
+        margin: 80px 0;
+        background-position: center center;
+        background-size: cover;
+    }
+
+/*********** Charters-section **********/
+
+#adventure-section
+    {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        height: 600px;
+        margin: 72px;
+    }
+
+
+
+#adventure-section div:first-child
+    {
+    background-color:#F7F7F7;
+    height: 60%;
+    align-self: start;
+    grid-column: 1/span 2; 
+    grid-row: 1; 
+    z-index: 2; 
+    text-align: center;
+    padding-top: 96px;
+    
+    
+
+
+
+    }
+
+#adventure-section div:last-child
+    {
+        background-image: url('../Img/fish.webp');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        grid-column: 2/span 4;
+        grid-row: 1;
+        z-index: 1;
+      
+
+    }
+
+
+
+    
+#reel-report-section
+    {
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        height: 600px;
+        margin: 72px;
+    }
+
+
+
+#reel-report-section div:last-child
+    {
+    background-color:#F7F7F7;
+    height: 60%;
+    align-self:end;
+    grid-column: 4/span 2; 
+    grid-row: 1; 
+    z-index: 2; 
+    text-align: center;
+    padding-top: 96px;
+    
+}
+
+#reel-report-section div:first-child
+    {
+        background-image: url('../Img/people.webp');
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100%;
+        grid-column: 1/span 4;
+        grid-row: 1;
+        z-index: 1;
+      
+
+    }
+
+
+
+/*********** bttm-nav **********/
+
+#bttm-nav
+
+    {
+        background-color: #FFFFFF ;
+        margin: 72px;
+        height: 550px;
+    
+        justify-items: center;
+        align-items: center;
+    }
+        
+    
+
+#bttm-nav li 
+
+    {
+    padding: 24px;
+    font-size: 1.4rem ;
+    font-weight:bold ;
+    text-decoration: none;
+    }
+
+#bttm-nav a
+
+    {
+    color: black;
+    text-decoration: none;
+    }
+      
+  
